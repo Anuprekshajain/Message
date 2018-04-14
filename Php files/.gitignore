@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+/vendor/
+/logs/*
+!/logs/README.md
+=======
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+>>>>>>> c5301fa38b4b14c4d85c63ec2a430f89450f1589
