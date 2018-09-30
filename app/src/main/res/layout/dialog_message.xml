@@ -9,13 +9,13 @@
         android:id="@+id/editTextTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter title" />
+        android:hint="@string/enter_title" />
 
     <EditText
         android:id="@+id/editTextMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Message"
+        android:hint="@string/enter_message"
         android:lines="7" />
 
 </LinearLayout>

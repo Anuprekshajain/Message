@@ -20,9 +20,11 @@
     <string name="update">Update</string>
     <string name="anupreksha">Anupreksha</string>
     <string name="hello">Hello</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Welcome !</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="name">Name</string>
     <string name="gender">Gender</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_message">Enter Message</string>
 </resources>

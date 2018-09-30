@@ -56,7 +56,6 @@ public class MessageFragment extends Fragment {
         call.enqueue(new Callback<Messages>() {
             @Override
             public void onResponse(Call<Messages> call, Response<Messages> response) {
-                Toast.makeText(getActivity(), "response", Toast.LENGTH_LONG).show();
                 adapter = new MessageAdapter(response.body().getMessages(), getActivity());
                 recyclerViewMessages.setAdapter(adapter);
             }
